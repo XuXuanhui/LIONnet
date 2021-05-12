@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">  
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Cross-Context Visual Imitation Learning from Demonstrations</title>
+    <title>Zero Real-Interaction Imitation Learning with Image-only Observation</title>
     <!-- CSS -->
         <link href='http://fonts.googleapis.com/css?family=Quicksand:300,400' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Oxygen:400,300' rel='stylesheet' type='text/css'>
@@ -27,7 +27,7 @@
     <!-- MAIN -->
     <div id="main">
 
-            <div id="match-nav-wrapper">
+           <!-- <div id="match-nav-wrapper">
                 <div id="match-nav-bar">
 
                     <table>
@@ -42,14 +42,14 @@
                     </table>
 
                 </div>
-            </div>
+            </div>-->
 
       <!-- HEADER -->
       <div id="home-header">
       
             <div id="match-wrapper">
 
-                <h5><a href="#"><img src="image/logo.png"></a></h5>
+              <!--  <h5><a href="#"><img src="image/logo.png"></a></h5>-->
 
                 <br><br>
 
@@ -61,7 +61,7 @@
                 <br><strong>Abstract</strong>
                 <p style="text-align:justify; text-justify:inter-ideograph;">
                 Learning from observation (LfO) prompts the robot to imitate actions from state-only demonstrations via deep Reinforcement Learning (RL). LfO has achieved satisfactory results in simulation environment through hundreds of thousands of robot-environment interactions.
-                 While in the real world, constrained by the expensive and even potentially dangerous interaction between the real robot and the environment, LfO is still difficult to be popularized. Reducing the number of the interaction of LfO during training in the real world remains to be a hot research topic. Although significant progress has been made in existing works, interaction is still inevitable. In this paper, we propose the LION net ($\textbf{L}earning\ from\ \textbf{I}mage-only\ \textbf{O}bservatio\textbf{n}\ Net$) which learns action from image-only demonstrations, and reduce the number of robot-environment interaction to zero in the real world. It is expected to be a realistic solution for the real robot LfO. LION net contains two modules: a domain transfer module which bridges the gap between the simulation and the real world and a RL based control module that takes images as input. With LION net, the robot is allowed to imitate the action from the image-only human demonstration in simulation, and perform the learned action in the real world without any additional training. We evaluate our method on three real life tasks: pouring water, washing cup, and stacking cube. All tasks are deployed to the real robot and achieved state-of-the-art performance.
+                 While in the real world, constrained by the expensive and even potentially dangerous interaction between the real robot and the environment, LfO is still difficult to be popularized. Reducing the number of the interaction of LfO during training in the real world remains to be a hot research topic. Although significant progress has been made in existing works, interaction is still inevitable. In this paper, we propose the LION net (Learning from Image-only Observation Net) which learns action from image-only demonstrations, and reduce the number of robot-environment interaction to zero in the real world. It is expected to be a realistic solution for the real robot LfO. LION net contains two modules: a domain transfer module which bridges the gap between the simulation and the real world and a RL based control module that takes images as input. With LION net, the robot is allowed to imitate the action from the image-only human demonstration in simulation, and perform the learned action in the real world without any additional training. We evaluate our method on three real life tasks: pouring water, washing cup, and stacking cube. All tasks are deployed to the real robot and achieved state-of-the-art performance.
 </p>
                 <br>
                 <h1>Overview</h1>
